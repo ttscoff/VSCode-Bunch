@@ -1,0 +1,25 @@
+{
+    "name": "bunch",
+    "displayName": "Bunch",
+    "description": "Package for working with Bunch.app files",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "bunch",
+            "aliases": ["Bunch", "bunch"],
+            "extensions": [".bunch",".frontmatter",".bunchsnippet"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "bunch",
+            "scopeName": "source.bunch",
+            "path": "./syntaxes/Bunch.tmLanguage"
+        }]
+    }
+}
