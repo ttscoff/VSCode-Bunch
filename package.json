@@ -10,16 +10,30 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "bunch",
-            "aliases": ["Bunch", "bunch"],
-            "extensions": [".bunch",".frontmatter",".bunchsnippet"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "bunch",
-            "scopeName": "source.bunch",
-            "path": "./syntaxes/Bunch.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "bunch",
+                "aliases": [
+                    "Bunch",
+                    "bunch"
+                ],
+                "extensions": [
+                    ".bunch",
+                    ".frontmatter",
+                    ".bunchsnippet"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "bunch",
+                "scopeName": "source.bunch",
+                "path": "./syntaxes/Bunch.tmLanguage"
+            }
+        ]
+    },
+    "dependencies": {
+        "vsce": "^1.96.3"
     }
 }
