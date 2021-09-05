@@ -28,8 +28,10 @@ Here's the process:
 1. Commit all your changes and push them to github
 2. Decide on the new version for the release
 3. Update CHANGELOG.md with the new version and commit it
-4. Tag the new version number and push the tag
-5. Publish to the VSCode Marketplace with:
+4. Publish to the VSCode Marketplace with:
      ```
-     $ npx vsce publish
+     $ npx vsce publish {version}
      ```
+   This will update `package.json` with the new version number
+5. Commit `package.json` and and `package-lock.json`
+6. Use git to tag the new version number and push the tag
