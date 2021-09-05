@@ -7,6 +7,17 @@ Suggestions, bug reports, and pull requests welcome.
 This extension uses the TextMate language definition from https://github.com/kotfu/Bunch.tmbundle/blob/main/Syntaxes/Bunch.tmLanguage. This language definition is copied and committed here when it is updated.
 
 
+## Prerequisites
+
+In order to publish this extension you need to:
+
+- Install [Node.js](https://nodejs.org/en/)
+- Use `npm` to install `vsce`
+    ```
+    $ npm install vsce
+    ```
+
+
 ## Publishing a Release
 
 To make it easier for users to find and install, this extension is published to
