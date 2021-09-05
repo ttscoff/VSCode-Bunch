@@ -9,7 +9,7 @@
     "author": {
         "name": "kotfu"
     },
-    "icon": "gfx/bunchicon-350@2x.jpg",
+    "icon": "gfx/bunchicon-350.png",
     "homepage": "https://github.com/ttscoff/VSCode-Bunch",
     "repository": {
         "type": "git",
