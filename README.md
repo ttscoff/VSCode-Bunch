@@ -16,3 +16,14 @@ This extension includes:
 
 - Syntax highlighting for Bunch files and snippets
 
+
+## Installation
+
+This extension is available on the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/VSCode). To install:
+
+- Launch Visual Studio Code
+- Click the "Extensions" button in the sidebar
+- Search for "Bunch" and click on the one with the icon showing the bunch of grapes
+- Click Install
+
+Updates will be installed automatically by Visual Studio Code.

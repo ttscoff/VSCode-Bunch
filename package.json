@@ -1,14 +1,27 @@
 {
     "name": "bunch",
     "displayName": "Bunch",
-    "description": "Package for working with Bunch.app files",
+    "description": "Syntax highlighting for files used with Bunch.app on macOS",
     "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.59.0"
+    "publisher": "kotfu",
+    "license": "MIT",
+    "preview": true,
+    "author": {
+        "name": "kotfu"
+    },
+    "icon": "gfx/bunchicon-350@2x.jpg",
+    "homepage": "https://github.com/ttscoff/VSCode-Bunch",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ttscoff/VSCode-Bunch"
+    },
+    "bugs": {
+        "url": "https://github.com/ttscoff/VSCode-Bunch/issues"
     },
     "categories": [
         "Programming Languages"
     ],
+    "keywords": ["bunch", "macos", "automation"],
     "contributes": {
         "languages": [
             {
@@ -32,6 +45,9 @@
                 "path": "./syntaxes/Bunch.tmLanguage"
             }
         ]
+    },
+    "engines": {
+        "vscode": "^1.59.0"
     },
     "dependencies": {
         "vsce": "^1.96.3"
