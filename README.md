@@ -27,3 +27,14 @@ This extension is available on the [Visual Studio Code Marketplace](https://mark
 - Click Install
 
 Updates will be installed automatically by Visual Studio Code.
+
+
+## Screenshots
+
+Using the Monokai theme:
+
+![](gfx/dark-theme-screenshot.png)
+
+Using the Light theme:
+
+![](gfx/light-theme-screenshot.png)
