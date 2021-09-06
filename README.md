@@ -19,7 +19,12 @@ This extension includes:
 
 ## Installation
 
-This extension is available on the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/VSCode). To install:
+This extension is available on the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/VSCode).
+
+When you open a Bunch file in Visual Studio Code, it will prompt you to install
+the extension.
+
+To install manually:
 
 - Launch Visual Studio Code
 - Click the "Extensions" button in the sidebar
