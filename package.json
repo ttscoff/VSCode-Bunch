@@ -5,7 +5,6 @@
     "version": "0.2.3",
     "publisher": "kotfu",
     "license": "MIT",
-    "preview": true,
     "author": {
         "name": "kotfu"
     },
