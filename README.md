@@ -29,7 +29,7 @@ To install manually:
 - Launch Visual Studio Code
 - Click the "Extensions" button in the sidebar
 - Search for "Bunch" and click on the one with the icon showing the bunch of grapes
-- Click Install
+- Click "Install"
 
 Updates will be installed automatically by Visual Studio Code.
 
