@@ -35,3 +35,4 @@ Here's the process:
    This will update `package.json` with the new version number and tag the
    release
 5. Push the repo to github
+6. Create a tag in the github repo for the new version number

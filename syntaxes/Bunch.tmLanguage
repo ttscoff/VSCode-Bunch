@@ -1509,6 +1509,10 @@
 									<key>include</key>
 									<string>#interpolation</string>
 								</dict>
+								<dict>
+									<key>include</key>
+									<string>#snippet</string>
+								</dict>
 							</array>
 						</dict>
 						<key>4</key>
@@ -1544,6 +1548,10 @@
 								<dict>
 									<key>include</key>
 									<string>#interpolation</string>
+								</dict>
+								<dict>
+									<key>include</key>
+									<string>#snippet</string>
 								</dict>
 							</array>
 						</dict>
