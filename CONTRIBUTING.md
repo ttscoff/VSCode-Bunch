@@ -32,7 +32,6 @@ Here's the process:
      ```
      $ npx vsce publish {version}
      ```
-   This will update `package.json` with the new version number and tag the
-   release
+   This will update `package.json` with the new version number and create a
+   git tag for the release
 5. Push the repo to github
-6. Create a tag in the github repo for the new version number
