@@ -2,7 +2,7 @@
     "name": "bunch",
     "displayName": "Bunch",
     "description": "Syntax highlighting for files used with Bunch.app on macOS",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "publisher": "kotfu",
     "license": "MIT",
     "author": {
