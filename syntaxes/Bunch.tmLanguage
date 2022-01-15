@@ -522,7 +522,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b((not )?(has|is)?\s*(not|!)?\s*(parent|child)|(not )?(is|does)( not)?( (running|before|after|open(ing)?|clos(ing|ed)))?|(not|!)|(starts?|begins?|ends?) with|contains?|(less|greater)( than)?( or equals?( to)?)?|equals?( to)?|[!\^\$\*&lt;=&gt;]+|(yes|no|true|false))\b</string>
+					<string>\b((not )?(has|is)?\s*(not|!)?\s*(parent|child|uuid|file)|(not )?(is|does)( not)?( (running|before|after|open(ing)?|clos(ing|ed)))?|(not|!)|(starts?|begins?|ends?) with|contains?|exists?|(less|greater)( than)?( or equals?( to)?)?|equals?( to)?|[!\^\$\*&lt;=&gt;]+|(yes|no|true|false))\b</string>
 					<key>name</key>
 					<string>keyword.operator.word.bunch</string>
 				</dict>
@@ -1180,7 +1180,7 @@
 											<key>comment</key>
 											<string>certain keywords cause bunch to take actions, instead of defining a variable</string>
 											<key>match</key>
-											<string>(close after|close at|close on|from file|from script|ignores state|menu divider|menu order|only opens|open at|open every|open on|quits apps|run after|run after close|run before|run before close|schedule if|schedule unless|sequence|shortcut|single bunch mode|startup|title|toggles)</string>
+											<string>(close after|close at|close on|from file|from script|ignore if|ignore unless|ignore|ignores state|menu divider|menu order|only opens|open at|open every|open on|quits apps|run after|run after close|run before|run before close|schedule if|schedule unless|sequence|shortcut|single bunch mode|startup|tags|title prefix|title|toggles)</string>
 											<key>name</key>
 											<string>storage.type.function</string>
 										</dict>
