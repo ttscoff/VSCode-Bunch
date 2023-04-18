@@ -36,7 +36,8 @@
                 "extensions": [
                     ".bunch",
                     ".frontmatter",
-                    ".bunchsnippet"
+                    ".bunchsnippet",
+                    ".snippets"
                 ],
                 "configuration": "./language-configuration.json"
             }
