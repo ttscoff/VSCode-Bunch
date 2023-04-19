@@ -12,9 +12,9 @@ This extension uses the TextMate language definition from https://github.com/kot
 In order to publish this extension you need to:
 
 - Install [Node.js](https://nodejs.org/en/)
-- Use `npm` to install `vsce`
+- Use `npm` to install `@vscode/vsce`
     ```
-    $ npm install vsce
+    $ npm install @vscode/vsce
     ```
 
 
