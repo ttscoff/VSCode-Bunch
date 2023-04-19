@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.3.0 (2023-04-18)
+
+### Added
+
+- add `.snippets` to the list of extensions
+
+
 ## 1.2.0 (2022-01-15)
 
 Add syntax highlighting for new features in Bunch 1.4.6
@@ -37,7 +44,7 @@ Add support for new capabilities in Bunch 1.4.5
 
 ## 1.0.0 (2021-09-06)
 
-- Remove "preview" attribute for Visual Studio Code Marketplace 
+- Remove "preview" attribute for Visual Studio Code Marketplace
 - Add syntax highlighting for bunch 1.4.5 embedded scripts
 
 
