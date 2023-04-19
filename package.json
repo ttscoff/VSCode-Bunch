@@ -55,6 +55,6 @@
     },
     "dependencies": {
         "@vscode/vsce": "^2.19.0",
-        "vsce": "^1.103.1"
+        "vsce": "^1.97.0"
     }
 }
